@@ -4,7 +4,7 @@
 This project builds a neural network to classify concrete strength into three levels: low, medium, and high, using numerical features from the dataset. The data is preprocessed by encoding the target variable and splitting it into training and testing sets. A baseline model with two hidden layers is initially trained and evaluated. To improve performance, outliers are removed, features are normalized, and a more complex neural network with dropout layers is developed to prevent overfitting. The model's accuracy is evaluated through a classification report, confusion matrix, and training/validation loss plots. Results indicate that the improved model performs well, with accurate predictions and no signs of overfitting or underfitting.
 
 ## Code Setup
-You can simply download the concrete data in the data folder on this repository named 'concrete.csv' and also download the code named concrete_prediction.py in the src folder where the source code is. 
+You can simply download the concrete data in the data folder on this repository named 'concrete.csv' and also download the code named concrete_prediction.py in the src folder. 
 
 I used Google Colab to create this code and I had to upload the data into the environment to read it but for other python environments you can do concrete = pd.read_csv('C:/Users/Computer Username/Downloads/concrete.csv').
 
